@@ -5,26 +5,30 @@ class Title extends Phaser.Scene {
 
     preload() {
         // load assets
-        this.load.path = "./assets/"
+        this.load.path = "./assets/";
 
         // load JSON (ie dialog text)
-        this.load.json('dialog', 'json/dialog.json')
+        this.load.json('dialog', 'json/dialog.json');
 
         // load images
-        this.load.image('dialogbox', 'img/dialogbox.png')
-        this.load.image('homer', 'img/homer.png')
-        this.load.image('minerva', 'img/minerva.png')
-        this.load.image('jove', 'img/jove.png')
-        this.load.image('neptune', 'img/neptune.png')
+        this.load.image('dialogbox', 'img/dialogbox.png');
+        this.load.image('homer', 'img/homer.png');
+        this.load.image('minerva', 'img/minerva.png');
+        this.load.image('jove', 'img/jove.png');
+        this.load.image('neptune', 'img/neptune.png');
+        this.load.image('lebron1', 'img/lebron1.png');
+        this.load.image('lebron2', 'img/lebron2.png');
+        this.load.image('lebron3', 'img/lebron3.png');
 
         // load bitmap font
-        this.load.bitmapFont('gem_font', 'font/gem.png', 'font/gem.xml')
+        this.load.bitmapFont('gem_font',  'font/gem.png', 'font/gem.xml');
+        this.load.bitmapFont('punk_font', 'font/punk.png', 'font/punk.xml');
     }
 
     create() {
         // add title text
-        this.add.bitmapText(centerX, centerY - 32, 'gem_font', 'THE ODYSSEY', 32).setOrigin(0.5)
-        this.add.bitmapText(centerX, centerY, 'gem_font', 'Press SPACE to start', 16).setOrigin(0.5)
+        this.add.bitmapText(centerX, centerY - 32, 'punk_font', 'THE ODYSSEY', 72).setOrigin(0.5)
+        this.add.bitmapText(centerX, centerY, 'punk_font', 'Press SPACE to start', 32).setOrigin(0.5)
 
         // create input
         cursors = this.input.keyboard.createCursorKeys()

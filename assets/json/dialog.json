@@ -24,7 +24,12 @@
 		{	
 			"speaker" : "homer",
 			"dialog" : "Tell me, too, about all these things, O daughter of Jove, from whatsoever source you may know them."
-		}
+		},
+        {
+            "speaker" : "lebron_1",
+            "dialog" : "I'm labron.",
+            "newSpeaker" : "true"
+        }
 	],
 	[
 		{
@@ -41,11 +46,22 @@
 			"dialog" : "Father, son of Saturn, King of kings, it served Aegisthus right, and so it would any one else who does as he did; but Aegisthus is neither here nor there.",
 			"newSpeaker" : "true"
 		},
+        {
+            "speaker" : "lebron_2",
+            "dialog" : "I'm labron",
+            "newSpeaker" : true
+        },
+        {
+            "speaker" : "lebron_3",
+            "dialog" : "I'm labron",
+            "newSpeaker" : true
+        },
 		{	
 			"speaker" : "minerva",
-			"dialog" : "It is for Ulysses that my heart bleeds, when I think of his sufferings in that lonely sea-girt island, far away, poor man, from all his friends."
+			"dialog" : "It is for Ulysses that my heart bleeds, when I think of his sufferings in that lonely sea-girt island, far away, poor man, from all his friends.",
+            "newSpeaker" : true
 		},
-		{	
+		{
 			"speaker" : "jove",
 			"dialog" : "My child, what are you talking about? How can I forget Ulysses than whom there is no more capable man on earth, nor more liberal in his offerings to the immortal gods that live in heaven?",
 			"newSpeaker" : "true"
